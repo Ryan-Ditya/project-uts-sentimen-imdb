@@ -47,3 +47,24 @@ Ikuti langkah-langkah ini untuk menjalankan aplikasi web demo di komputer lokalm
     streamlit run app.py
     ```
 Aplikasi akan terbuka otomatis di *browser* Anda pada alamat `http://localhost:8501`.
+
+---
+
+## 📸 Demo Aplikasi Web
+
+Berikut adalah beberapa tangkapan layar dari aplikasi demo yang berjalan menggunakan *Streamlit*.
+
+### 1. Tampilan Halaman Utama (Home Page)
+Ini adalah tampilan awal aplikasi, tempat pengguna dapat memasukkan ulasan film.
+
+![Tampilan Halaman Utama](Capture Home Page.JPG)
+
+### 2. Contoh Analisis: Sentimen Positif
+Tangkapan layar ini menunjukkan hasil prediksi ketika ulasan yang dimasukkan memiliki sentimen positif.
+
+![Hasil Prediksi Sentimen Positif](Capture Positif.JPG)
+
+### 3. Contoh Analisis: Sentimen Negatif
+Tangkapan layar ini menunjukkan hasil prediksi ketika ulasan yang dimasukkan memiliki sentimen negatif.
+
+![Hasil Prediksi Sentimen Negatif](Capture Negatif.JPG)
