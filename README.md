@@ -1,8 +1,8 @@
-# 🎬 Proyek UTS Machine Learning: Analisis Sentimen IMDb
+#  Proyek UTS Machine Learning: Analisis Sentimen IMDb
 
-Ini adalah repositori untuk proyek Ujian Tengah Semester mata kuliah Machine Learning.
+Ini adalah repositori untuk proyek Ujian Tengah Semester mata kuliah Pembelajaran Mesin.
 
-## 🧑‍💻 Tim Pelaksana
+##  Tim Pelaksana
 **Nama Tim:** CHINTA’S PROPERTY
 
 | NIM | Nama Mahasiswa | Peran |
@@ -13,10 +13,10 @@ Ini adalah repositori untuk proyek Ujian Tengah Semester mata kuliah Machine Lea
 
 ---
 
-## 📝 Deskripsi Proyek
+##  Deskripsi Proyek
 Aplikasi ini adalah sistem **Analisis Sentimen** yang dilatih pada dataset IMDb 50k Movie Reviews. Tujuan dari sistem ini adalah untuk mengklasifikasikan (memprediksi) apakah sebuah ulasan film memiliki sentimen **positif** atau **negatif**.
 
-## 🤖 Model
+##  Model
 Model yang digunakan untuk proyek ini dan diimplementasikan dalam demo adalah **Multinomial Naive Bayes (MNB)**, yang dilatih menggunakan fitur **TF-IDF**.
 
 Model ini dipilih karena:
@@ -24,7 +24,7 @@ Model ini dipilih karena:
 2.  Memberikan akurasi yang sangat tinggi ($\mathbf{90.37\%}$) setelah optimasi fitur.
 3.  Memiliki kecepatan prediksi (*inference*) yang sangat cepat, ideal untuk *deployment* demo lokal.
 
-## 💻 Teknologi (Laporan Poin 7)
+##  Teknologi (Laporan Poin 7)
 * **Bahasa Pemrograman:** Python
 * **Training & Analisis:** Google Colab, Scikit-learn, NLTK, Pandas
 * **Aplikasi Demo:** Streamlit
@@ -32,9 +32,9 @@ Model ini dipilih karena:
 
 ---
 
-## 🚀 Cara Menjalankan (Demo Lokal)
+##  Cara Menjalankan (Demo Lokal)
 
-Ikuti langkah-langkah ini untuk menjalankan aplikasi web demo di komputer lokalmu:
+Ikuti langkah-langkah ini untuk menjalankan aplikasi web demo di komputer lokal:
 
 1.  *Clone* repositori ini.
 2.  Pastikan **Python** (disarankan versi **3.11**) ter-*install*.
@@ -46,11 +46,11 @@ Ikuti langkah-langkah ini untuk menjalankan aplikasi web demo di komputer lokalm
     ```bash
     streamlit run app.py
     ```
-Aplikasi akan terbuka otomatis di *browser* Anda pada alamat `http://localhost:8501`.
+Aplikasi akan terbuka otomatis di *browser* masing - masing pada alamat `http://localhost:8501`.
 
 ---
 
-## 📸 Demo Aplikasi Web
+##  Demo Aplikasi Web
 
 Berikut adalah beberapa tangkapan layar dari aplikasi demo yang berjalan menggunakan Streamlit.
 
@@ -66,4 +66,5 @@ Tangkapan layar ini menunjukkan hasil prediksi ketika ulasan yang dimasukkan mem
 
 Tangkapan layar ini menunjukkan hasil prediksi ketika ulasan yang dimasukkan memiliki sentimen negatif.
 ![Hasil Prediksi Sentimen Negatif](https://raw.githubusercontent.com/Ryan-Ditya/project-uts-sentimen-imdb/main/Capture%20Negatif.JPG)
+
 
